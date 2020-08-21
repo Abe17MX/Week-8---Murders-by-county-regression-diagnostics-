@@ -47,6 +47,7 @@ summary(Reg1)
 # Residuals graphs to evaluate normality assumption of residuals
 histreg1 <- hist(residuals(Reg1))
 plot1 <- plot(lm(murders ~ perc1019 + perc2029 + percblack + percmale + rpcpersinc, data = base))
+View(plot1)
 
 #Q6
 
