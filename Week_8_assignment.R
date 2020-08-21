@@ -5,7 +5,6 @@ library(dplyr)
 library(car)
 library(ggplot2)
 
-
 base <- read.csv("murders.csv")
 
 View(base)
